@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background: url('../imagenes/jaguar-xe.jpg') no-repeat fixed center;
+    background-size: cover;
 }
 
 @media (min-width: 600px) {
@@ -19,7 +21,7 @@ body {
     border-radius: 10px;
 }
 
-.cuadro h3 {
+.cuadro h2 {
     color:white;
     margin-left: 20px;
 }
@@ -36,11 +38,5 @@ body {
     border: #DB3030;
     padding: 10px 30px;
     margin-bottom: 15px;
-}
-
-.container img {
-    width: 100%;
-    height: 100%;
-    position: fixed;
 }
 
